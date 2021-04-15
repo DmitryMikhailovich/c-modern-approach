@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+double inner_product(double a[], double b[], int n);
+
+double inner_product(double a[], double b[], int n) {
+    double result = 0.0;
+    for(int i = 0; i < n; i++)
+        result += a[i] * b[i];
+    return result;
+}
+
